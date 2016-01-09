@@ -14535,8 +14535,8 @@ helpers.preg_quote = function(str, delimiter) {
 
     .constant('AppName', 'demo')
     .constant('ClientID', 'public_web_abc123')
-    .constant('ApiBaseUrl', 'http://yii2-f4a.rhcloud.com/api')
-    .constant('ApiAuthUrl', 'http://yii2-f4a.rhcloud.com/auth')
+    .constant('ApiBaseUrl', 'https://yii2-f4a.rhcloud.com/api')
+    .constant('ApiAuthUrl', 'https://yii2-f4a.rhcloud.com/auth')
     .constant('AuthRoutes', ['images','tags','owners'])
 
     .config(restangular)
